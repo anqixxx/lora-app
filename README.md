@@ -1,7 +1,7 @@
-LoRa Pet Tracker
+LoRa Pet Tracker App
 =========
 
-The **LoRa Pet Tracker** is a Flutter-based mobile application designed to help pet owners track their pets' location in real-time using LoRa (Long Range) technology. The app integrates with a Supabase backend to fetch GPS data, battery levels, and send commands to the pet tracker device.
+The **LoRa Pet Tracker App** is a Flutter-based mobile application designed to help pet owners track their pets' location in real-time using LoRa (Long Range) technology. The app integrates with a Supabase backend to fetch GPS data, battery levels, and send commands to the pet tracker device.
 
 Features 
 =========
@@ -14,6 +14,13 @@ Features
 **Mode Selection**: Switch between **Normal Mode** and **Search Mode** for different tracking scenarios.  
 
 **History**: View historical location data of your pet.
+
+<div align="center">
+  <figure>
+    <img src="assets/readme/phoneusage.gif" width="300" style="border-radius:12px;">
+  </figure>
+</div>
+</br>
 
 Installation
 =========
@@ -49,15 +56,17 @@ To install, follow the following:
 
 Usage 
 =========
+<p align="center">
+  <img src="assets/readme/main.png" alt="Home Page" width="45%"/>
+</p>
 
-### Home Screen
-- **Map**: Displays your pet's current location and the latest GPS data.
-- **Battery Indicator**: Shows the battery level of the pet tracker device.
-- **Speaker Button**: Triggers a buzzer on the device to help locate your pet.
-- **Mode Selection**: Toggle between **Normal Mode** and **Search Mode**.
+On the home screen there is a the following:
+- Map which displays your pet's current location and the latest GPS data.
+- Battery Indicator which shows the battery level of the pet tracker device.
+- Speaker Button that triggers a buzzer on the device to help locate your pet.
+- Mode Selection that allows you to toggle between Normal Mode and Search Mode.
 
-### History Screen
-- View historical GPS data of your pet's movements on the map.
+The app also has a history page (right), where you can view historical GPS data of your pet's movements on the map.
 
 Code Structure 
 =========
