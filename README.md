@@ -1,7 +1,7 @@
-LoRa Pet Tracker
+LoRa Pet Tracker App
 =========
 
-The **LoRa Pet Tracker** is a Flutter-based mobile application designed to help pet owners track their pets' location in real-time using LoRa (Long Range) technology. The app integrates with a Supabase backend to fetch GPS data, battery levels, and send commands to the pet tracker device.
+The **LoRa Pet Tracker App** is a Flutter-based mobile application designed to help pet owners track their pets' location in real-time using LoRa (Long Range) technology. The app integrates with a Supabase backend to fetch GPS data, battery levels, and send commands to the pet tracker device.
 
 Features 
 =========
